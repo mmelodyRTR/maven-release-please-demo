@@ -49,5 +49,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+	    <repository>
+	        <id>github</id>
+	        <name>GitHub Packages Maven Repository</name>
+	        <url>https://maven.pkg.github.com/mmelodyRTR/maven-release-please-demo</url>
+	    </repository>
+	</distributionManagement>
 </project>
